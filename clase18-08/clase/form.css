@@ -1,0 +1,47 @@
+*{
+
+	padding:  0;
+	margin:0;
+}
+body{
+	background-color:#BF96E8; 
+	color: #392940;
+	}
+.claselabel{
+	padding: 10px;
+
+	color: white;
+
+}
+.corrercuadro{
+	margin: 0px 0px 0px 18px;
+}
+.cuadroedad{
+margin: 0px 0px 0px 19px;	
+}
+#login{
+
+
+	height: auto; /* hace que cresca automaticamente el contenedor*/
+
+
+     
+	background-color: #3b5998;
+    border: 5px solid red;
+}
+#lapartedeabajo{
+	background-color: #edf0f5;
+
+}
+.filmtocat2{
+	display: inline-block;
+	
+	width: 250px;
+	height: 250px;
+
+}
+#formulario{
+	margin: 30px 80px 10px 20px;
+	display: inline-block;
+	float: right;
+}

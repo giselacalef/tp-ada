@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="face.css">
+	
+</head>
+
+<body>
+
+<div class="h-1">
+		<h1 > Bienvenidos a mi Formulario </h1>
+</div>
+
+<div id="padre">
+		
+	<img class="gigi" src="imagenform/gigi.png" >
+
+<form id="formulario1" >
+<div class="iniciar" >
+	<div>
+		<label class="claselabel" for="email">Email</label>
+		<input class="datos-personales" type="email" name="email" id="Email" placeholder="Escribi tu Email">
+	</div>	
+<br>
+<div>
+	<label class="claselabel" for="contraseña">Contraseña: </label>
+	<input class="datos-personales"
+	 minlength="8" maxlength="8" type="password" name="contraseña" id="contraseña" placeholder="Escribí tu contraseña" >
+</div>
+
+	<br>
+
+	<br>
+<div>
+	 <a class="link" href="https://www.facebook.com/login/identify?ctx=recover&lwv=110" target="_blank"> olvide contraseña </a>
+	 </div>
+	<div>
+		<button type="submit" class="boton" value="iniciar sesión">Iniciar Sesión </button>
+	</div>
+	<br>
+
+</div>	<br>
+		<hr>
+		<br>
+<p align="left" >Registrate:</p>
+<br>		
+<p align="left" >Es gratis y lo será siempre.</p>
+<br>
+<div  >
+	<input class="datos-personales" type="text" name="nombre" placeholder="Nombre:">
+	<input class="datos-personales" type="text" name="apellido" placeholder="Apellido:">
+</div>
+<br>
+<br>
+<div>
+	<input class="numero-email" type="text" type="number" name="celular-email" placeholder="Numero de celular o correo electronico:">
+	</div>
+<br>
+<br>
+<div >
+	<input class="contraseña-nueva" type="password" name="contraseña-nueva" placeholder="Contraseña nueva:">
+</div>
+<br>
+<textarea class="cuadrotexto" placeholder="Escribi el texto"></textarea>
+<br>
+<div>
+	<label class="claselabel" for="algo que seleccione">Seleccione:</label>
+
+
+	<select id="algo-que-seleccione" name="algo que seleccione">
+
+		<option disabled="true" selected="true"> seleccione</option>
+		<option>Opción1</option>
+		<option>Opción2</option>
+		<option>Opción3</option>
+
+	</select>
+</div>
+<br>
+
+
+		
+ <div class="terminos"> 
+	
+	<div><label class="claselabel" for="terminos y condiciones" type="checkbox" > Acepta los terminos y condiciones.
+	</label></div>
+	<div><input id="terminos y condiciones" type="checkbox" name="terminos y condiciones"></div>
+</div>
+<br>
+<div class="terminos" >
+	<label class="claselabel" for="terminos y condiciones-si" ></label>
+	<label class="claselabel" for="terminos y condiciones-no" ></label>
+
+	<input id="terminos y condiciones-si" type="radio" name="terminos y condiciones"> Si
+	<input id="terminos y condiciones-no" type="radio" name="terminos y condiciones" > No
+</div>
+      <br>
+
+<div>
+	<button type="submit" class="boton" Enviar" value="Enviar" > Enviar</button>
+	<button type="reset" class="boton" value="limpiar" >Limpiar</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
