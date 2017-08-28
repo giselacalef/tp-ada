@@ -1,0 +1,63 @@
+#padre{
+margin: -10;
+height: 750px;
+}
+#blanco{
+background-color: white;
+height: 750px;
+width: 12.50%;
+float: left;
+}
+#amarillo{
+background-color: yellow;
+height: 750px;
+width: 12.50%;
+float: left;
+}
+#celeste{
+background-color: #00bfff;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+}
+#verde{
+background-color: green;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+
+}
+#magenta{
+background-color: magenta;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+
+
+}
+#rojo{
+background-color: red;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+
+}
+#azul{
+background-color: blue;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+
+}
+#negro{
+background-color: black;
+height: 750px;
+width: 12.50%;
+display: inline-block;
+float: left;
+}

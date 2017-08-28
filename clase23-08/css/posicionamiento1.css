@@ -1,0 +1,40 @@
+#padre{
+margin-left: -10px;
+}
+
+.rojoo{
+height: 800px;
+width: 15%;
+background-color: red;
+display: inline-block;
+float: left;
+}
+.rojoo2{
+height: 800px;
+background-color: red;
+width: 15%;
+display: inline-block;
+float: right;
+margin: 0 auto;
+}
+#medio-padre{
+width: 90%;
+}
+.verdee{
+height:150px;
+background-color: green;
+margin: 0 auto;
+text-align: center;
+}
+.naranjaa{
+height:500px;
+background-color: orange;
+margin: 0 auto;
+text-align: center;
+}
+.verdee2{
+height:150px;
+background-color: green;
+margin: 0 auto;
+text-align: center;
+}
