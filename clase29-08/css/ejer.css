@@ -1,0 +1,48 @@
+.azul{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	/*border: 10px dotted black;
+	border-width: 5px;
+	border-style: double;
+	border-color: red;
+	border-bottom-style: dashed;
+	border-width: 5px;
+	border-bottom-color: blue;*/
+	border-radius: 50%;
+}
+.verde{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	/*border: 10px dotted black;
+	border-width: 5px;
+	border-style: double;
+	border-color: red;
+	border-bottom-style: dashed;
+	border-width: 5px;
+	border-bottom-color: blue;*/
+	border-radius: 50%;
+}
+.rojo{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	/*border: 10px dotted black;
+	border-width: 5px;
+	border-style: double;
+	border-color: red;
+	border-bottom-style: dashed;
+	border-width: 5px;
+	border-bottom-color: blue;*/
+	border-radius: 50%;
+
+}
+#padre{
+	margin-top: 100px;
+
+	text-align: center;
+}
