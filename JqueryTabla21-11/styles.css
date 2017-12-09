@@ -1,0 +1,9 @@
+.btnEditar{
+		color:rgba(255, 0, 0, 0.349);
+}
+.clicked{
+	color: rgba(51, 255, 0, 0.609);
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.651);
+}
